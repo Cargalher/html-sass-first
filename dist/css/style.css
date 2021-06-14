@@ -1,9 +1,18 @@
 body {
-  color: palevioletred;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: snow;
+}
+
+h1 {
+  color: palevioletred;
+}
+
+p {
+  color: palevioletred;
+  background-color: antiquewhite;
+  padding: 35px;
 }
 
 button {
