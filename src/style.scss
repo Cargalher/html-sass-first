@@ -1,5 +1,6 @@
 // Variable
-$maincolor: palevioletred; 
+$maincolor: palevioletred;
+$mainbg: antiquewhite;
 
 body{
     
@@ -11,13 +12,16 @@ body{
 
 h1{
     color: $maincolor;
+    background-color: $mainbg;
+    padding: 15px;
 }
 p{
-    color: palevioletred;
-    background-color: antiquewhite;
+    color: $maincolor;
+    background-color: $mainbg;
     padding: 35px;
 }
 
 button{
     color: $maincolor;
+    background-color: $mainbg;
 }
